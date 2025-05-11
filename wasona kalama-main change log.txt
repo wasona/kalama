@@ -1,0 +1,23 @@
+2025-05-10
+
+good ol scope creep. i present to kala asi and jan lakuse entirely remastered spoken audio collections.
+
+i recommend the older version gets replaced with this everywhere.
+
+reported missing files
+fixed as many missing and incorrect phonemes as i could
+removed as many clicks, pops, lip smacks, dropouts, and other issues as i could
+standardized volume with dynamic range compression and normalization. -18LUFS
+equalized tonal balance
+reduced background noise
+reduced room echo
+standardized onset time
+standardized file format; 1 channel 44.1kHz 192kbps CBR mp3 for speech, 2 channel 44.1kHz 192kbps CBR mp3 for sfx
+removed 5_1 and 22_1 which were duplicates of 5_2 and 22_2, fixed filenames
+shortened and quieted sfx, modified done.mp3 to make it more distinguishable
+
+re wasona, the file lengths are such that the words should feel snappy to the touch with the word bubbles (it's not instant, there is padding; it's a bad idea not to have 50-100ms of room at the beginning), and the sentences are timed nicely when they're played immediately after the sfx, in case that's how you choose to implement it.
+
+played back-to-back, each collection of files has its own tempo or cadence which should help it to be broadly useful.
+
+what i've provided here is totally functional in its own right, but check the re-recording wishlist. that's actually a misnomer, some files are missing completely. at any rate send me more recordings and i'll process them the same way and finish off this updated collection. -jan kepijona

@@ -1,0 +1,86 @@
+jan Lakuse re-recording wishlist
+
+some files are just missing outright
+
+some files are mispronounced. no huge mistakes but somewhat likely to be misleading. a couple of them i was able to partially fix but in general there's nothing i can do in post. most problems are subtle, like 4_2 can sound like "piki ike". also there might be stuff i didn't catch because i'm not a linguist and i'm presumably biased towards a general american accent, but i did my best and i was pretty strict.
+
+some files sound kinda cruddy. jan Lakuse's recording setup has a strange and frequent problem with dropouts. i was able to fully repair some of the damaged audio and partially repair the rest. the partially repaired audio ought to be re-recorded, ideally, but it's not a huge impediment to understanding i think, just a potential distraction.
+
+error categories are most to least severe
+
+missing:
+Kenta, Nina, Palata, Elopa
+27_2 There is yellow dust on the bee. ko jelo li lon pipi.
+27_3 I, too, play with colourful bricks. mi kin li musi kepeken leko kule.
+27_4 All this snow is blinding me. mi ken ala lukin tan ko walo.
+27_5 Blue, white, and red are on the flag. laso en walo en loje li lon lipu.
+28_2 The raccoon loves you. kijetesantakalu li olin e sina.
+28_3 sina wile la o pu.
+28_4 taso sina wile ala la, ale li pona.
+
+
+
+mispronounced/missing phonemes:
+epiku
+kijetesantakalu (this one is really messed up; i did a really hacky fix so it sounds Better but it's basically totally garbled. useless as a pronunciation guide)
+lipu
+Nijon
+4_2
+4_4
+7_3
+9_3
+14_2
+15_5
+17_5
+18_6
+20_3
+20_4
+23_1
+24_8
+25_4
+
+
+
+
+small audio quality issue or glitch:
+kepeken
+kin
+ku
+lanpan
+lape
+majuna
+misikeke
+mulapisu
+musi
+mute
+3_2
+3_3
+4_5
+9_2
+9_4
+13_1
+13_9
+14_1
+14_7
+15_2
+15_3
+16_3
+18_1
+21_4
+26_1
+27_1
+28_1
+
+
+
+
+kala asi re-recording wishlist
+
+mispronunciations
+jasima (sounds a bit like "jashima")
+anu ("ano")
+kuntu
+mun
+jaku
+
+i also recommend you re-do the vowel ipa recordings, this time with a changing pitch over time rather than a steady pitch. my brain was having a little friction inside picking out which vowel it was and i think it's because it's hard to figure out the formant from a steady signal - if the pitch varied significantly, then the spectral content of the voice box is separated from the formant and each can be picked out. just a guess ¯\_(ツ)_/¯
