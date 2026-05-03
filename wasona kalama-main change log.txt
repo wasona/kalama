@@ -1,3 +1,41 @@
+2026-05-03
+
+eq and dynamics improvements for every audio file currently in use by the website. more consistent tone between files. removed more clicks and pops and noise and room resonance. with help from echoden_sys kulupu Eketen, who supplied echo-removed versions of kala-asi story. 
+
+turned a few quasi-/a/s into /o/s here and there, got rid of "mansuta", etc. shortened and lengthened a few phones as necessary
+
+repaired some clipping and some overzealously chopped off tails
+
+no change to kala-asi ipa, kala-asi words, jan-lakuse sentences.
+
+added new files sourced from wikimedia. edited wikimedia consonant files for consistency. replaced the /s/ file with the old one from 2005 that sounds like the rest of them. kala-asi ipa vowels replaced with new wikimedia files because the formants of the vowels are made more clear by the broad sweep in pitch performed by the speakers
+
+nice shiny new wikimedia-sourced files will not actually go live on the website until someone changes the code to get the files from wasona/kalama/wikimedia/ipa instead of what appears to my uninformed eyes like loading it directly from upload.wikimedia.org 
+
+added credits and links to wikimedia files. see <links credits.txt>
+
+added some new jan-lakuse names which weren't getting used yet apparently. i got them with lowercase file names... i put them in title case to match
+
+added mostly silent short padding at beginning and end of jan-lakuse words and names. it's not always completely silent, but the first and last 52ms (2 mp3 frames) can be dropped (by some conceivable error, idk, soundcloud has it so bad that 52ms isn't nearly enough) and the word will still be comprehensible. beginning padding is short enough that it still feels snappy to the touch, and end padding is long enough that two files can be played end-to-end and the two words will sound consecutive and distinct. where there are no long decaying tails to worry about, there's 100ms at the end. in general it should feel like the file is 100-150ms longer than the word or name
+
+wikimedia ipa and sfx got 100ms at beginning and 100ms at end, kala-asi story got 200ms at beginning and 500ms at end. i just used my judgement for how each of them should feel depending on what they each do for ux on the website and how they sound end-to-end in case they ever get used for anything else
+
+reduced level to about -20LUFS on average, about the loudness of a typical audiobook. the LUFS readings vary quite a lot though. naively normalizing all the files to exactly -20LUFS would in fact make them sound inconsistent. k-weighting just doesn't work as well as hundreds of hours of frenzied vanity-fueled manual editing, especially carried out by someone who understands that it would kind of weird if "e" was exactly as loud as the content words. (k-weighting barely works at all, if you ask me.)
+
+true peak limited to -6dBFS. files can be turned up by 6dB without any issues, if someone wants to do that. that's a linear amplitude factor of 2x. that would put it closer to the loudness of a podcast or youtube video
+
+all files are 192kbps CBR 1ch mp3. except sfx which are 192kbps CBR 2ch mp3 joint stereo disallowed. impeccable compatibility with absolutely everything as far as i know. idk anything about websites, this is just the safest option. i'd love to be using opus but we gotta wait a couple decades before that's so widely supported
+
+i encourage anyone else using jan lakuse's spoken word files update their audio file collection to this one!
+
+anyway yeah this project was a massive waste of time that i did just for fun, just to see if i could. the way this is supposed to get done is that all of this stuff gets properly recorded to begin with but after a little bit of "fecal alchemy" what wasona has now is totally fine!
+
+added .DS_Store files. sorry, i can't figure out how to get rid of those
+
+
+
+
+
 2025-05-10
 
 good ol scope creep. i present to kala asi and jan lakuse entirely remastered spoken audio collections.
